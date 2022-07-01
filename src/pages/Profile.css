@@ -1,0 +1,45 @@
+:root {
+  --black: #191414;
+  --green: #1db954;
+  --white: #ffffff;
+  --grey: #989898;
+}
+
+.profile {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilePhoto {
+  max-width: 8rem;
+  max-height: 8rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profilePhotoIMG {
+  width: 100%;
+}
+
+.profileName {
+  font-size: 1rem;
+}
+
+.profile-CreateLink {
+  position: relative;
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.profile-CreateLink-button {
+  background-color: var(--white);
+  color: black;
+  width: 15rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
